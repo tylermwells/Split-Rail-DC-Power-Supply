@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\tyler\OneDrive - Virginia Tech\Desktop\SplitRail DC Power Supply\SplitRail DC Power Supply.kicad_sch</source>
+    <date>1/27/2023 1:46:20 PM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Split Rail DC Power Supply</title>
+        <company/>
+        <rev/>
+        <date>7/20/22</date>
+        <source>SplitRail DC Power Supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1-1">
+      <value>10µF</value>
+      <footprint>Mis:CAPC1608X90</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/yago_s_a0011397150_1-2286655.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>575cf606-0c09-4730-a203-f0a4e69e3d12</tstamps>
+    </comp>
+    <comp ref="C1-2">
+      <value>4.7 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/40/cx5r-2300296.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4481b55-c246-47b8-9bc9-339d9d038a10</tstamps>
+    </comp>
+    <comp ref="C2-1">
+      <value>0.01µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-NP0X5R_01005_4V-to-25V_V10.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3ff03ca-c009-4ca9-9974-a2a1c44df5b6</tstamps>
+    </comp>
+    <comp ref="C2-2">
+      <value>4.7 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/40/cx5r-2300296.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab19b741-d169-48fa-844c-e14ed710de2d</tstamps>
+    </comp>
+    <comp ref="C3-1">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f172b33-9b8a-4652-8ed0-24f10243ee42</tstamps>
+    </comp>
+    <comp ref="C3-2">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>963c6086-c27b-4f59-aa44-3e926bbccaba</tstamps>
+    </comp>
+    <comp ref="C4-2">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a0b99d5-69d6-48fb-8159-5648a2f48039</tstamps>
+    </comp>
+    <comp ref="C5-2">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8bdd76e-6b88-48bb-b86f-eb6f6e3e8d64</tstamps>
+    </comp>
+    <comp ref="C6-2">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1922d43-ac5d-4e6b-9a69-6a15273c9541</tstamps>
+    </comp>
+    <comp ref="C7-2">
+      <value>4.7 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_ST_NPOX7R_16V_to_3KV_8-2301476.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08c3fbed-886a-4a21-905f-b999bccbb244</tstamps>
+    </comp>
+    <comp ref="C8-2">
+      <value>220 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fdd082f-9985-451b-abb1-ff63167ad23b</tstamps>
+    </comp>
+    <comp ref="C9-2">
+      <value>423 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_ST_NPOX7R_16V_to_3KV_8-3003022.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b8ae0b8-12ef-48c4-bfc9-367ee80351e2</tstamps>
+    </comp>
+    <comp ref="C10-2">
+      <value>577 nF</value>
+      <footprint>Mis:CAPC1608X90</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f482a17-7154-44cb-8a45-6cf83e89dbf6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>B120-E3</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88946/b120.pdf</datasheet>
+      <libsource lib="Diode" part="B120-E3" description="20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71f67447-1366-42f4-812e-f5bc360d1afb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>B120-E3</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88946/b120.pdf</datasheet>
+      <libsource lib="Diode" part="B120-E3" description="20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3abf0271-7404-4796-94dd-5e12da0999ed</tstamps>
+    </comp>
+    <comp ref="D2-1">
+      <value>B340</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
+      <libsource lib="Diode" part="B340" description="40V 3A Schottky Barrier Rectifier Diode, SMC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b86d3020-0497-4977-905d-d1c170dad38b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee411d82-0745-4b43-b999-753c0a876362</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3460a0af-f084-4e86-8027-59666b5f2356</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e3f8a4e-cdd2-4d0b-a966-755bc173b3cf</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0d3dfd4-5b7b-4bff-b119-d229d9964e10</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58638107-b237-4e75-b070-ed7ac3b17461</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c7fd0b-2623-4278-a29b-5502675d55a0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983aba70-cb8e-4bea-bdc2-deb58d0ac205</tstamps>
+    </comp>
+    <comp ref="L1-1">
+      <value>47 µH</value>
+      <footprint>Mis:IND_ETQP4M470KVC</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AGL0000C63-1283966.pdf</datasheet>
+      <libsource lib="Device" part="L_Iron_Small" description="Inductor with iron core, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05134388-46b2-4c53-9697-c1764cdf7579</tstamps>
+    </comp>
+    <comp ref="L1-2">
+      <value>4.7 µH</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
+      <datasheet>https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82462g4.pdf</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f555abd3-b657-4277-a291-70e62b38fe77</tstamps>
+    </comp>
+    <comp ref="L2-2">
+      <value>4.7 µH</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
+      <datasheet>https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82462g4.pdf</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>149ca848-67e0-49d9-858e-ea2e49a50c02</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Mis:SOT23</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/72024-1765799.pdf</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d728611b-793d-45e8-b621-6bc273907e29</tstamps>
+    </comp>
+    <comp ref="R1-1">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcw0201e3-1761851.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0f13b42-058c-49d5-bdf4-7faeab62b54d</tstamps>
+    </comp>
+    <comp ref="R1-2">
+      <value>1.3MΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56ad6e7e-8deb-46ae-8ff7-179fcd9dc816</tstamps>
+    </comp>
+    <comp ref="R2-1">
+      <value>3.24kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcw0201e3-1761851.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1c85587-a7b9-4f50-9e9a-8f6de748da9c</tstamps>
+    </comp>
+    <comp ref="R2-2">
+      <value>150kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcw0201e3-1761851.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ebdf633-f3f2-4bf4-8af4-fbdf13b379f8</tstamps>
+    </comp>
+    <comp ref="R3-2">
+      <value>1.3 MΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0327a7aa-f7ab-4169-b3fe-5aca0257bad2</tstamps>
+    </comp>
+    <comp ref="R4-2">
+      <value>130kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcw0201e3-1761851.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ba9dd59-ba83-4eda-92b5-e3560e4cebab</tstamps>
+    </comp>
+    <comp ref="R7-2">
+      <value>100 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcw0201e3-1761851.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a796aed-94de-4628-9685-945bab51a8fb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS5430DDA</value>
+      <footprint>Package_SO:TI_SO-PowerPAD-8_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps5430.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS5430DDA" description="3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e2180a3-bf9e-4fc0-97d4-4948a751d980</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS65131RGE</value>
+      <footprint>Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps65130.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS65131RGE" description="Split-Rail Converter with Dual, Positive and Negative Outputs (750mA typ, Switch Current Limit 1950mA typ),), 2.7-5.5V, VQFN-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SplitRail DC Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>120d8900-c41d-40ea-9a32-4912c9769215</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron_Small">
+      <description>Inductor with iron core, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B120-E3">
+      <description>20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.vishay.com/docs/88946/b120.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B120-E3</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88946/b120.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMC</description>
+      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+      <footprints>
+        <fp>D*SMC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B340</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS5430DDA">
+      <description>3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps5430.pdf</docs>
+      <footprints>
+        <fp>TI*SO*PowerPAD*ThermalVias*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5430DDA</field>
+        <field name="Footprint">Package_SO:TI_SO-PowerPAD-8_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps5430.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VSENSE" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="power_in"/>
+        <pin num="8" name="PH" type="output"/>
+        <pin num="9" name="GNDPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS65131RGE">
+      <description>Split-Rail Converter with Dual, Positive and Negative Outputs (750mA typ, Switch Current Limit 1950mA typ),), 2.7-5.5V, VQFN-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps65130.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS65131RGE</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps65130.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INP" type="input"/>
+        <pin num="2" name="PGND" type="power_in"/>
+        <pin num="3" name="PGND" type="passive"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="INN" type="input"/>
+        <pin num="6" name="INN" type="input"/>
+        <pin num="7" name="BSW" type="output"/>
+        <pin num="8" name="ENP" type="input"/>
+        <pin num="9" name="PSP" type="input"/>
+        <pin num="10" name="ENN" type="input"/>
+        <pin num="11" name="PSN" type="input"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="OUTN" type="output"/>
+        <pin num="14" name="OUTN" type="passive"/>
+        <pin num="15" name="VNEG" type="input"/>
+        <pin num="16" name="FBN" type="input"/>
+        <pin num="17" name="VREF" type="output"/>
+        <pin num="18" name="CN" type="passive"/>
+        <pin num="19" name="AGND" type="power_in"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="CP" type="passive"/>
+        <pin num="22" name="FBP" type="input"/>
+        <pin num="23" name="VPOS" type="input"/>
+        <pin num="24" name="INP" type="input"/>
+        <pin num="25" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="3" name="5V">
+      <node ref="C2-2" pin="1" pintype="passive"/>
+      <node ref="C3-1" pin="1" pintype="passive"/>
+      <node ref="L1-1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1-1" pin="1" pintype="passive"/>
+      <node ref="R7-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="INN" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="INN" pintype="input"/>
+    </net>
+    <net code="4" name="Earth">
+      <node ref="C1-1" pin="2" pintype="passive"/>
+      <node ref="C1-2" pin="2" pintype="passive"/>
+      <node ref="C2-2" pin="2" pintype="passive"/>
+      <node ref="C3-1" pin="2" pintype="passive"/>
+      <node ref="C3-2" pin="2" pintype="passive"/>
+      <node ref="C4-2" pin="2" pintype="passive"/>
+      <node ref="C5-2" pin="2" pintype="passive"/>
+      <node ref="C6-2" pin="2" pintype="passive"/>
+      <node ref="C7-2" pin="2" pintype="passive"/>
+      <node ref="C8-2" pin="2" pintype="passive"/>
+      <node ref="D2-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2-2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2-1" pin="2" pintype="passive"/>
+      <node ref="R2-2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GNDPAD" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="PGND" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C1-1-Pad1)">
+      <node ref="C1-1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(C1-2-Pad1)">
+      <node ref="C1-2" pin="1" pintype="passive"/>
+      <node ref="L1-2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C2-1-Pad1)">
+      <node ref="C2-1" pin="1" pintype="passive"/>
+      <node ref="D2-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1-1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PH" pintype="output"/>
+    </net>
+    <net code="8" name="Net-(C2-1-Pad2)">
+      <node ref="C2-1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C3-2-Pad1)">
+      <node ref="C3-2" pin="1" pintype="passive"/>
+      <node ref="R7-2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="ENN" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="PSN" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="ENP" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="PSP" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(C4-2-Pad1)">
+      <node ref="C4-2" pin="1" pintype="passive"/>
+      <node ref="C9-2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="VPOS" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(C6-2-Pad1)">
+      <node ref="C6-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="CP" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C7-2-Pad1)">
+      <node ref="C7-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="CN" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C8-2-Pad1)">
+      <node ref="C8-2" pin="1" pintype="passive"/>
+      <node ref="R4-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="VREF" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(C9-2-Pad2)">
+      <node ref="C9-2" pin="2" pintype="passive"/>
+      <node ref="R1-2" pin="2" pintype="passive"/>
+      <node ref="R2-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="FBP" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(C10-2-Pad1)">
+      <node ref="C10-2" pin="1" pintype="passive"/>
+      <node ref="R3-2" pin="2" pintype="passive"/>
+      <node ref="R4-2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="FBN" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C10-2-Pad2)">
+      <node ref="C10-2" pin="2" pintype="passive"/>
+      <node ref="C5-2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3-2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="VNEG" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1-2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="INP" pintype="input"/>
+      <node ref="U2" pin="24" pinfunction="INP" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2-2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="OUTN" pintype="output"/>
+      <node ref="U2" pin="14" pinfunction="OUTN" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="BSW" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R1-1-Pad2)">
+      <node ref="R1-1" pin="2" pintype="passive"/>
+      <node ref="R2-1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VSENSE" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad20)">
+      <node ref="U2" pin="20" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-Pad25)">
+      <node ref="U2" pin="25" pinfunction="EP" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

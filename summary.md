@@ -1,8 +1,8 @@
 # Student Names 
-Henry Forsyth
+Tyler Wells
 
 # Summary
-This is a testing doc to see if I can pull it into the website
+This is a Power Supply to take 6-12 volts DC and step it down to +/- 5 Volts
 
 # Date Started
-11-16-2000
+08-11-22
